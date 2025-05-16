@@ -157,6 +157,12 @@ body{
     margin-top: 4px;
     line-height: 1.5;
 }
+
+#footer .columns .col2 .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 #footer .last_row{
     text-align: center;
 }
