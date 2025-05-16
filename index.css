@@ -1,5 +1,43 @@
-#Reviews{
+#reviews{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1.5em;
 }
+.reviews_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.reviews_card{
+    background-color: #fff;
+    border: 2px solid  #dfefff;
+    padding: 1em;
+    width: 19%;
+    height: 10%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(5, 8, 156, 0.1);
+}
+.reviews_img{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 0.7em;
+}
+.reviews_h3{
+    font-size: 1.2em;
+    color: #000;
+    margin: 0px;
+}
+
+
+.reviews_qouto{
+    position: absolute;
+    top: -0.2em;
+    right: 0;
+    font-size: 10em;
+    color: #e0e0e0;
+    font-family: Georgia, serif;
+}
+
+
