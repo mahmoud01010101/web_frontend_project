@@ -93,20 +93,20 @@ body{
 .our_blog_cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 8%;
     justify-content: center;
 }
 
 .our_blog_card{
     display: block;
-    width: 25%;
+    width: 24%;
     background-color: #fff;
     border: 2px solid  #cdc8c8;
     box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
 }
 .our_blog_card img{
     width: 100%;
-    height: 18em;
+    height: 14em;
 }
 .our_blog_card div h3{
     color: rgb(4, 157, 157);
@@ -119,7 +119,7 @@ body{
 .our_blog_icons{
     display: flex;
     justify-content: space-between;
-    margin-top: -1em;
+    margin-top: -0.8em;
     margin-bottom: 1em;
     font-size: 0.9em;
     color: rgb(4, 157, 157);
