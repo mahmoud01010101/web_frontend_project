@@ -1,3 +1,19 @@
+
+:root {
+    --main-color: #089da1; 
+  }
+  html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+/* ================================================================= previous is global css code */
+
 .header {
     width: 100%;
     box-shadow: 0px 2px 8px #00bcd4;
@@ -45,37 +61,34 @@
 }
 
 
-html, body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-body{
-    font-style: Arial, sans-serif;
-    background-color: #f9f9f9;
-}
+
 
 /* mahmoud : review section */
 .reviews-h1{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1.5em;
+    font-size: 3em;
 }
 .reviews_cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
-    justify-content: center;
+    /* gap: 1em; */
+    justify-content: space-evenly;
+    /* margin: 5em;
+    margin: 5em; */
+    padding-left: 2em;
+    padding-right: 2em;
 }
 .reviews_card{
     background-color: #fff;
-    border: 2px solid  #dfefff;
     padding: 1em;
-    width: 19%;
-    height: 10%;
+    width: 20%;
+    /* height: 10%; */
     position: relative;
-    box-shadow: 0 0 10px rgba(5, 8, 156, 0.1);
+    border: 2px solid  #dfefff;
+    box-shadow: 0 0 10px rgba(5, 8, 156, 0.2);
+    
 }
 .reviews_img{
     border-radius: 50%;
@@ -84,7 +97,7 @@ body{
     margin-bottom: 0.5em;
 }
 .reviews_h3{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #000;
     margin-top: 0px;
 }
@@ -127,7 +140,7 @@ body{
     position: absolute;
     left: 8em;
     bottom: 8em;
-    background-color: rgb(4, 157, 157);
+    background-color: var(--main-color);
     color: white;
     border: none;
     padding: 0.4em 1em;
@@ -162,7 +175,7 @@ body{
     height: 14em;
 }
 .blog_card div h3{
-    color: rgb(4, 157, 157);
+    color: var(--main-color);
     font-size: x-large;
 }
 .blog_card > div{
@@ -175,7 +188,7 @@ body{
     margin-top: -0.8em;
     margin-bottom: 1em;
     font-size: 0.9em;
-    color: rgb(4, 157, 157);
+    color: var(--main-color);
 }
 
 
@@ -183,16 +196,17 @@ body{
 
 #footer{
     background-color: #E0E0E0;
-    padding: 10px;
+    padding: 10px 5em;
     padding-bottom: 1em;
 }
 #footer .columns{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     /* padding: 0.4em 3em; */
     gap: 7%;
     padding-bottom: 2em;
+    font-size: 0.8em;
 }
 #footer .columns .col1{
     width: 16%;
@@ -251,15 +265,9 @@ body{
 }
 
 #footer .columns .col5 .button{
-    /* 
-    background-color: rgb(4, 157, 157);
-    color: white;
-    border-radius: 28%;
-    padding: 0.5em 1em;
-    border: none; */
     margin-top: 10px;
     padding: 5px 13px;
-    background-color: rgb(4, 157, 157);
+    background-color: var(--main-color);
     color: white;
     border: none;
     border-radius: 20px;
@@ -273,5 +281,5 @@ body{
 }
 #footer .last_row .highlight{
     margin-left: 5px;
-    color: rgb(4, 157, 157);
+    color: var(--main-color);
 }
