@@ -89,5 +89,9 @@ body{
 #digital_book > button{
     position: absolute;
     left: 8em;
-    bottom: 9em;
+    bottom: 8em;
+    background-color: rgb(4, 157, 157);
+    color: white;
+    border: none;
+    padding: 0.4em 1em;
 }
