@@ -18,7 +18,7 @@ body{
 /* Ali : Header section */
 .header{
     width: 100%;
-    box-shadow: 0px 2px 8px #00bcd4;
+    box-shadow: 0px 2px 8px #089da1;
     height: 64px;
     padding: 0 20px;
     align-items: center;
@@ -66,37 +66,57 @@ body{
     display: flex;
 }
 /* Ali : Hero section*/
-#Hero{
-    padding: 100px 40px;
-    margin: 2em 1em;
-}
 .Hero_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 1em;
+    padding: 10px 20px ;
+    height: 500px;
+
+
+}
+.text_content{
     display: inline-block;
-    max-width: 50%;
+    max-width: 40%; 
+    padding: 40px;
     
 }
-.Hero_content h1{
-    margin-bottom: 30px;
+.text_content h1{
+    margin-bottom: 40px;
     font-size: 3em;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-.Hero_content h1 span{
-    color: #00bcd4;
+.text_content h1 span{
+    color: #089da1;
 }
-.Hero_content p{
+.text_content p{
     font-size: 0.9em;
     max-width: 600px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
 }
-.table_img{
+.text_content a:visited , .text_content a:link{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: #089da1;
+    background-color: #089da1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size:small;
+    padding: 3px 13px ;
+}
+.image_content{
+    margin: 1em;
+    padding: 150px 10px;
     display: inline-flex;
-    max-width: 50%;
+    max-width: 60%;
 }
-.table_img img{
-    height: 300px;
-    width: auto;
-    
-
+.image_content img{
+    height: 350px;
+    width:650px ;
 }
 
 /* mahmoud : review section */
