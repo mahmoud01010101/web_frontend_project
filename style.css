@@ -1,22 +1,67 @@
+
 :root {
     --main-color: #089da1; 
   }
-html, body{
+  html, body{
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
 body{
-    /* font-style: Georgia; */
-    /* font-style: Roboto; */
-    /* font-style: Open Sans; */
-    /* font-style: Georgia; */
     font-family: 'Roboto', sans-serif;
-    /* font-weight: 700; */
-    /* font-family:; */
     background-color: #f9f9f9;
 }
+/* ================================================================= previous is global css code */
+
+.header {
+    width: 100%;
+    box-shadow: 0px 2px 8px #00bcd4;
+    height: 64px;
+    padding: 0 40px;
+    align-items: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+.logo img{
+        height: 50px;
+        width: auto;
+        margin: 0 4em;
+        display: flex;
+}
+.navBar{
+    margin:0 14em;
+    display: flex;
+}
+.navBar a{
+    font-weight: 500;
+    margin: 0 12px;
+    font-size: 16px;
+    display: flex;
+
+}
+.navBar a:visited ,.navBar a:link{
+  text-decoration: none;
+  color: black;
+
+}
+.icons{
+    margin: 0 2em;
+    display: flex;
+}
+.icons .fas{
+    margin: 0 6px;
+    display: flex;
+}
+
+
+
 
 /* mahmoud : review section */
 .reviews-h1{
