@@ -1,15 +1,11 @@
-
-:root {
-    --main-color: #089da1; 
-  }
-  html, body{
+html, body{
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-style: Arial, sans-serif;
     background-color: #f9f9f9;
 }
 #reviews, #blog{
@@ -19,7 +15,8 @@ body{
 
 /* ================================================================= previous is global css code */
 
-.header {
+/* Ali : Header section */
+.header{
     width: 100%;
     box-shadow: 0px 2px 8px #00bcd4;
     height: 64px;
@@ -44,12 +41,12 @@ body{
 }
 .navBar {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin: 0 auto;
   padding: 0 auto;
 }
 .navBar a{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 15px;
     display: flex;
 
@@ -68,9 +65,39 @@ body{
 .icons .fas{
     display: flex;
 }
+/* Ali : Hero section*/
+#Hero{
+    padding: 100px 40px;
+    margin: 2em 1em;
+}
+.Hero_content{
+    display: inline-block;
+    max-width: 50%;
+    
+}
+.Hero_content h1{
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-family:Arial, Helvetica, sans-serif
+}
+.Hero_content h1 span{
+    color: #00bcd4;
+}
+.Hero_content p{
+    font-size: 0.9em;
+    max-width: 600px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.table_img{
+    display: inline-flex;
+    max-width: 50%;
+}
+.table_img img{
+    height: 300px;
+    width: auto;
+    
 
-
-
+}
 
 /* mahmoud : review section */
 .reviews-h1{
