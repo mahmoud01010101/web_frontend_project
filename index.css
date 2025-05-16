@@ -1,6 +1,24 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  /* body, html {
+    width: 100%;
+    height: 100%;
+  } */
+  
+  /* section {
+    width: 100%;
+  } */
+
+
 body{
     font-style: Arial, sans-serif;
     background-color: #f9f9f9;
+    padding: 0;
+    margin: 0;
 }
 /* review section */
 .reviews-h1{
@@ -60,9 +78,9 @@ body{
 
 
 /* digital_book section */
-.digital_img{
+.digital_book_img{
     width: 100%;
     height: 30%;
     margin-top: 5em;
-    padding: 0;
+    position: relative;
 }
