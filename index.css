@@ -172,6 +172,12 @@ body{
 #footer .columns .col3 .elements i{
     margin-right: 0.3em;
 }
+
+#footer .columns .col4 i{
+    margin-right: 0.4em;
+    color: black;
+}
+
 #footer .last_row{
     text-align: center;
 }
