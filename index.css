@@ -103,9 +103,16 @@ body{
     background-color: #fff;
     border: 2px solid  #cdc8c8;
     box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
-    /* padding: 1em; */
 }
 .our_blog_card img{
     width: 100%;
     height: 18em;
+}
+.our_blog_card div h3{
+    color: rgb(4, 157, 157);
+    font-size: x-large;
+}
+.our_blog_card div{
+    padding: 0em 1em;
+    margin-top: -0.8em;
 }
