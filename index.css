@@ -10,7 +10,7 @@ body{
 .reviews_cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1em;
     justify-content: center;
 }
 .reviews_card{
