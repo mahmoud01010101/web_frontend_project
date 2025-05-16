@@ -1,16 +1,47 @@
 .header {
     width: 100%;
     box-shadow: 0px 2px 8px #00bcd4;
-    height: 60px;
-    padding: 2px 40px;
+    height: 64px;
+    padding: 0 40px;
     align-items: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
 }
 
 .logo img{
-        height: 40px;
+        height: 50px;
         width: auto;
-        margin: 1em 4em ;
-        
+        margin: 0 4em;
+        display: flex;
+}
+.navBar{
+    margin:0 14em;
+    display: flex;
+}
+.navBar a{
+    font-weight: 500;
+    margin: 0 12px;
+    font-size: 16px;
+    display: flex;
+
+}
+.navBar a:visited ,.navBar a:link{
+  text-decoration: none;
+  color: black;
+
+}
+.icons{
+    margin: 0 2em;
+    display: flex;
+}
+.icons .fas{
+    margin: 0 6px;
+    display: flex;
 }
 
 
