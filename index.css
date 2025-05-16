@@ -112,7 +112,15 @@ body{
     color: rgb(4, 157, 157);
     font-size: x-large;
 }
-.our_blog_card div{
+.our_blog_card > div{
     padding: 0em 1em;
     margin-top: -0.8em;
+}
+.our_blog_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    color: rgb(4, 157, 157);
 }
