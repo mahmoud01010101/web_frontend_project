@@ -78,9 +78,16 @@ body{
 
 
 /* digital_book section */
+#digital_book{
+    position: relative;
+}
 .digital_book_img{
     width: 100%;
     height: 30%;
     margin-top: 5em;
-    position: relative;
+}
+#digital_book > button{
+    position: absolute;
+    left: 8em;
+    bottom: 9em;
 }
