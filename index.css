@@ -136,3 +136,12 @@ body{
 #footer{
     background-color: #E0E0E0;
 }
+#footer .columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.4em 3em;
+}
+#footer .last_row{
+    text-align: center;
+}
