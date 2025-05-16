@@ -163,6 +163,15 @@ body{
     flex-direction: column;
     gap: 5px;
 }
+
+#footer .columns .col3 .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#footer .columns .col3 .elements i{
+    margin-right: 0.3em;
+}
 #footer .last_row{
     text-align: center;
 }
