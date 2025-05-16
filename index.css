@@ -1,5 +1,230 @@
-#Reviews{
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-style: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* mahmoud : review section */
+.reviews-h1{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1.5em;
+}
+.reviews_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+.reviews_card{
+    background-color: #fff;
+    border: 2px solid  #dfefff;
+    padding: 1em;
+    width: 19%;
+    height: 10%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(5, 8, 156, 0.1);
+}
+.reviews_img{
+    border-radius: 50%;
+    width: 23%;
+    height: 23%;
+    margin-bottom: 0.5em;
+}
+.reviews_h3{
+    font-size: 1.5em;
+    color: #000;
+    margin-top: 0px;
+}
+
+.reviews_qouto{
+    position: absolute;
+    top: -0.2em;
+    right: 0;
+    font-size: 10em;
+    color: #e0e0e0;
+    font-family: Georgia, serif;
+}
+
+.reviews_p{
+    text-align: justify;         
+    word-break: break-all;   
+    hyphens: auto; 
+    margin-top: -1em;
+}
+
+.reviews_stars{
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    color: #00bcd4;
+    font-size: 0.8em;
+}
+
+
+/* mahmoud : digital_book section */
+#digital_book{
+    position: relative;
+}
+.digital_book_img{
+    display: block;
+    width: 100%;
+    height: 30%;
+    margin-top: 5em;
+}
+#digital_book > button{
+    position: absolute;
+    left: 8em;
+    bottom: 8em;
+    background-color: rgb(4, 157, 157);
+    color: white;
+    border: none;
+    padding: 0.4em 1em;
+}
+
+/* mahmoud : blog section  */
+#blog{
+    margin-bottom: 1.5em;
+}
+#blog > h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.blog_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    justify-content: center;
+}
+
+.blog_card{
+    display: block;
+    width: 24%;
+    background-color: #fff;
+    border: 2px solid  #cdc8c8;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+}
+.blog_card img{
+    display: block;
+    width: 100%;
+    height: 14em;
+}
+.blog_card div h3{
+    color: rgb(4, 157, 157);
+    font-size: x-large;
+}
+.blog_card > div{
+    padding: 0em 1em;
+    margin-top: -0.8em;
+}
+.blog_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.8em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    color: rgb(4, 157, 157);
+}
+
+
+/* mahmoud : footer */
+
+#footer{
+    background-color: #E0E0E0;
+    padding: 10px;
+    padding-bottom: 1em;
+}
+#footer .columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0.4em 3em; */
+    gap: 7%;
+    padding-bottom: 2em;
+}
+#footer .columns .col1{
+    width: 16%;
+}
+#footer .columns .col1 img{
+    width: 35%;
+}
+#footer .columns .col1 p{
+    text-align: justify;         
+    word-break: normal;   
+    hyphens: auto; 
+    white-space: normal;
+    margin: 0;
+    margin-top: 4px;
+    line-height: 1.5;
+}
+
+#footer .columns .col2 .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#footer .columns .col2 a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer .columns .col3 .elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#footer .columns .col3 .elements i{
+    margin-right: 0.3em;
+}
+
+#footer .columns .col4 i{
+    margin-right: 0.4em;
+    color: black;
+}
+
+#footer .columns .col5{
+    width: 16%;
+}
+
+#footer .columns .col5 .textarea{
+  width: 70%;
+  height: 1.2em;
+  padding: 5px 5px 5px 13px;
+  background-color: rgb(199, 194, 194);
+  border-radius: 20px;
+  font-size: 0.8em;
+  resize: none;
+  border: none;
+
+}
+
+#footer .columns .col5 .button{
+    /* 
+    background-color: rgb(4, 157, 157);
+    color: white;
+    border-radius: 28%;
+    padding: 0.5em 1em;
+    border: none; */
+    margin-top: 10px;
+    padding: 5px 13px;
+    background-color: rgb(4, 157, 157);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+
+#footer .last_row{
+    text-align: center;
+    font-size: 0.8em;
+}
+#footer .last_row .highlight{
+    margin-left: 5px;
+    color: rgb(4, 157, 157);
 }
