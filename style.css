@@ -23,8 +23,9 @@ body{
     padding: 0 20px;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: space-between;
+    justify-content:space-around;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,12 +36,13 @@ body{
 .logo img{
         height: 50px;
         width: auto;
-        margin: 0 auto;
+        align-self: center;
         display: flex;
         padding: 0 7em;
 }
 .navBar {
   display: flex;
+  justify-items: center;
   gap: 25px;
   margin: 0 auto;
   padding: 0 auto;
@@ -48,8 +50,6 @@ body{
 .navBar a{
     font-weight: 400;
     font-size: 15px;
-    display: flex;
-
 }
 .navBar a:visited ,.navBar a:link{
   text-decoration: none;
@@ -58,16 +58,17 @@ body{
 }
 .icons{
     margin: 0 auto;
-    gap: 12px;
     display: flex;
+    gap: 12px;
     padding: 0 auto;
 }
 .icons .fas{
-    display: flex;
+    justify-items:center;
 }
 /* Ali : Hero section*/
 .Hero_content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 1em 1em;
