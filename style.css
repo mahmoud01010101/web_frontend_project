@@ -16,56 +16,86 @@ body{
 /* ================================================================= previous is global css code */
 
 /* Ali : Header section */
-.header{
+.header {
     width: 100%;
-    box-shadow: 0px 2px 8px #089da1;
     height: 64px;
-    padding: 0 20px;
-    align-items: center;
+    padding: 0 5vw;
     display: flex;
-    flex-wrap: wrap;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
+    box-shadow: 0px 2px 8px #089da1;
     z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-.logo img{
-        height: 50px;
-        width: auto;
-        align-self: center;
-        display: flex;
-        padding: 0 7em;
+.logo img {
+    height: 50px;
+    width: auto;
+    display: block;
 }
+
 .navBar {
-  display: flex;
-  justify-items: center;
-  gap: 25px;
-  margin: 0 auto;
-  padding: 0 auto;
+    display: flex;
+    gap: 25px;
+    align-items: center;
 }
-.navBar a{
+
+.navBar a {
     font-weight: 400;
     font-size: 15px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
 }
-.navBar a:visited ,.navBar a:link{
-  text-decoration: none;
-  color: black;
 
+.navBar a:hover {
+    color: #089da1;
 }
-.icons{
-    margin: 0 auto;
+
+.icons {
     display: flex;
-    gap: 12px;
-    padding: 0 auto;
-}
-.icons .fas{
-    justify-items:center;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
 }
 
+
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .navBar {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        display: none;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navBar.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
 /* Ali : Hero section*/
 
 .hero_section {
@@ -128,44 +158,66 @@ body{
 
 /* Ali : Feature Icons */ 
 
-.features{
-    padding: 10px;
+.features {
+    padding: 20px;
     margin: 10px;
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-
+    gap: 20px;
 }
-.feature{
-    padding-left: 5px;
-    padding-right: 5px;
-    max-width: 20%;
+
+.feature {
+    padding: 15px;
+    flex: 1 1 200px; 
+    max-width: 250px;
     box-shadow: 0px 1px 6px #089da1;
     text-align: center;
     border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
 .feature h4 {
- font-weight: 1000;
- font-size: large;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
 }
-.feature p{
-    font-size:medium;
+
+.feature p {
+    font-size: medium;
+    margin-top: 5px;
+    color: #555;
 }
+
 .feature i {
-    padding-top: 15px;
+    padding-top: 10px;
     color: #089da1;
     font-size: 36px;
 }
+
+
 @media (max-width: 768px) {
     .features {
-    flex-direction: column;
-    text-align: center;
-    gap: 40px; 
-        }
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
 
+    .feature {
+        width: 90%; 
+        max-width: none;
+    }
+}
+
+
 /* Ali : About Us section */
-    .about_us{
+    #about{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -207,7 +259,7 @@ body{
         height: auto;
     }
     @media (max-width: 768px) {
-    .about_us {
+    #about {
     flex-direction: column;
     text-align: center;
     gap: 40px; 
@@ -233,7 +285,7 @@ body{
     background-color: #fff;
     padding: 1em;
     width: 20%;
-    /* height: 10%; */
+
     position: relative;
     border: 2px solid  #dfefff; 
     box-shadow: 0 0 5px rgba(4, 4, 14, 0.5);
