@@ -155,6 +155,13 @@ body{
     color: #089da1;
     font-size: 36px;
 }
+@media (max-width: 768px) {
+    .features {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px; 
+        }
+    }
 
 /* Ali : About Us section */
     .about_us{
@@ -199,12 +206,13 @@ body{
         height: auto;
     }
     @media (max-width: 768px) {
-  .about_us {
+    .about_us {
     flex-direction: column;
     text-align: center;
     gap: 40px; 
         }
     }
+
 /* mahmoud : review section */
 .reviews-h1{
     text-align: center;
