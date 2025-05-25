@@ -3,6 +3,11 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
+    background-image: url("images/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body{
     font-style: Arial, sans-serif;
@@ -181,6 +186,7 @@ body{
 
 .feature:hover {
     transform: translateY(-5px);
+    background-color: azure;
 }
 
 .feature h4 {
