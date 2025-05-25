@@ -75,6 +75,7 @@ body{
     align-items: center;
     gap: 20px;
     padding: 50px 5%;
+    margin-top: 40px ;
 }
 
 .text_content {
@@ -125,8 +126,6 @@ body{
     }
 }
 
-
-
 /* Ali : Feature Icons */ 
 
 .features{
@@ -157,6 +156,13 @@ body{
     color: #089da1;
     font-size: 36px;
 }
+@media (max-width: 768px) {
+    .features {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px; 
+        }
+    }
 
 /* Ali : About Us section */
     .about_us{
@@ -179,7 +185,6 @@ body{
     }
     .text_about_us p {
       margin-bottom: 40px;
-      padding: 0 10px;
     }
     .text_about_us a:visited , .text_about_us a:link{
     text-decoration: none;
@@ -202,12 +207,13 @@ body{
         height: auto;
     }
     @media (max-width: 768px) {
-  .about_us {
+    .about_us {
     flex-direction: column;
     text-align: center;
     gap: 40px; 
         }
     }
+
 /* mahmoud : review section */
 .reviews-h1{
     text-align: center;
