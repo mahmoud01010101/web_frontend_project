@@ -67,34 +67,33 @@ body{
 }
 
 /* Ali : Hero section*/
-.Hero_content{
-    display:flex;
+
+.hero_section {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    height: 500px;
+    gap: 20px;
+    padding: 50px 5%;
 }
 
-.text_content{
-    display: inline-block;
-    max-width: 40%;
-    padding: 45px;
-    
+.text_content {
+    flex: 1 1 400px;
+    padding: 1rem;
 }
-.text_content h1{
-    margin-bottom: 40px;
+.text_content h1 {
     font-size: 3em;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-bottom: 40px;
 }
-.text_content h1 span{
+.text_content h1 span {
     color: #089da1;
 }
-.text_content p{
+.text_content p {
     font-size: 0.9em;
     max-width: 600px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 40px;
 }
 .text_content a:visited , .text_content a:link{
@@ -108,17 +107,25 @@ body{
     font-size:small;
     padding: 3px 13px ;
 }
-.image_content{
-    margin: 1em;
-    padding: 150px 10px;
-    display: inline-flex;
-    max-width: 60%;
-    
+.image_content {
+    flex: 1 1 400px;
+    text-align: center;
 }
-.image_content img{
-    height: 350px;
-    width:650px ;
+
+.image_content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+@media (max-width: 768px) {
+    .hero_section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
 
 /* Ali : Feature Icons */ 
 
