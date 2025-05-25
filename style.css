@@ -169,7 +169,7 @@ body{
     }
     .text_about_us{
        flex: 1 1 300px;
-      max-width: 500px;
+       max-width: 100%;
     }
     .text_about_us h1 {
         font-size: 40px;
@@ -179,6 +179,7 @@ body{
     }
     .text_about_us p {
       margin-bottom: 40px;
+      padding: 0 10px;
     }
     .text_about_us a:visited , .text_about_us a:link{
     text-decoration: none;
@@ -194,13 +195,19 @@ body{
 
     .img_about_us{
         flex: 1 1 300px;
-        max-width: 500px; 
+        max-width: 100%; 
     }
     .img_about_us img{
         width: 100%;
         height: auto;
     }
-
+    @media (max-width: 768px) {
+  .about_us {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px; 
+        }
+    }
 /* mahmoud : review section */
 .reviews-h1{
     text-align: center;
