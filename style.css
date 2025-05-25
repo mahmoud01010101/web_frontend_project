@@ -125,8 +125,6 @@ body{
     }
 }
 
-
-
 /* Ali : Feature Icons */ 
 
 .features{
@@ -179,7 +177,6 @@ body{
     }
     .text_about_us p {
       margin-bottom: 40px;
-      padding: 0 10px;
     }
     .text_about_us a:visited , .text_about_us a:link{
     text-decoration: none;
