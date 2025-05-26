@@ -193,7 +193,63 @@ body{
         width: 100%;
         height: auto;
     }
-
+/* wesam : middle section*/
+ .first-sec{margin-top: 20%;}
+ .adress{text-align: center;
+        font-size:xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;}
+ .book-box{display: inline-block;
+           border: solid thin rgba(0,0,0,0.2) ;
+           margin: 2.5%;
+           margin-top: 1%;}
+ .book-box:hover{border: 1px solid #e0e0e0;
+                 box-shadow: 0px 1px 6px #089da1;}
+  .images{padding: 50px;
+         padding-top: 1%;
+         padding-bottom: 5%;}
+ .image{
+    padding: 50px;
+         padding-top: 1%;
+         padding-bottom: 5%;
+         transition: transform 0.3s ease;
+        }
+  .image:hover{transform:scale(1.05);
+               transition: 2s;}
+ .text1-book{text-align: center;
+             font-weight: bold;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;}
+ .text2-book{color: #cacaca;
+             text-align: center;}
+ .text3-book{text-align: center;
+             color: aqua;
+             font-size: medium;}
+ .text4-book{text-align: center;
+              } 
+ .text5-book{border: #98c3bd solid;
+              text-align: center;
+              display: inline-block;
+              margin-left: 25%;
+              margin-bottom: 10%;
+              padding-left:5%;
+              padding-right: 5%;
+              padding-top: 3%;
+              padding-bottom: 3%;}
+         .scroll{overflow-x: auto;
+         display: flex;
+        scrollbar-color: aqua transparent;}
+ .second-sec{margin-top: 15%;}
+ .checked{color: #98c3bd;}
+ .stars{text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: 5%;}
+  .book-box2{display: inline-block;
+           border: solid thin rgba(0,0,0,0.2);
+           margin: 2.2%;
+           margin-top: 1%;}
+  .book-box2:hover{border: 1px solid #e0e0e0;
+                 box-shadow: 0px 1px 6px #089da1;}
 /* mahmoud : review section */
 .reviews-h1{
     text-align: center;
